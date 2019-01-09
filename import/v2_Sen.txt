@@ -1,0 +1,300 @@
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Alexander, Lamar", Range:=Selection.Range)
+    oAutoText.Value = "Senator Lamar Alexander (R-TN)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Ayotte, Kelly", Range:=Selection.Range)
+    oAutoText.Value = "Senator Kelly Ayotte (R-NH)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Baldwin, Tammy", Range:=Selection.Range)
+    oAutoText.Value = "Senator Tammy Baldwin (D-WI)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Barrasso, John", Range:=Selection.Range)
+    oAutoText.Value = "Senator John Barrasso (R-WY)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Baucus, Max", Range:=Selection.Range)
+    oAutoText.Value = "Senator Max Baucus (D-MT)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Begich, Mark", Range:=Selection.Range)
+    oAutoText.Value = "Senator Mark Begich (D-AK)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Bennet, Michael", Range:=Selection.Range)
+    oAutoText.Value = "Senator Michael Bennet (D-CO)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Blumenthal, Richard", Range:=Selection.Range)
+    oAutoText.Value = "Senator Richard Blumenthal (D-CT)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Blunt, Roy", Range:=Selection.Range)
+    oAutoText.Value = "Senator Roy Blunt (R-MO)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Boozman, John", Range:=Selection.Range)
+    oAutoText.Value = "Senator John Boozman (R-AR)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Boxer, Barbara", Range:=Selection.Range)
+    oAutoText.Value = "Senator Barbara Boxer (D-CA)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Brown, Sherrod", Range:=Selection.Range)
+    oAutoText.Value = "Senator Sherrod Brown (D-OH)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Burr, Richard", Range:=Selection.Range)
+    oAutoText.Value = "Senator Richard Burr (R-NC)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Cantwell, Maria", Range:=Selection.Range)
+    oAutoText.Value = "Senator Maria Cantwell (D-WA)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Cardin, Ben", Range:=Selection.Range)
+    oAutoText.Value = "Senator Ben Cardin (D-MD)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Carper, Tom", Range:=Selection.Range)
+    oAutoText.Value = "Senator Tom Carper (D-DE)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Casey, Bob", Range:=Selection.Range)
+    oAutoText.Value = "Senator Bob Casey (D-PA)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Chambliss, Saxby", Range:=Selection.Range)
+    oAutoText.Value = "Senator Saxby Chambliss (R-GA)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Chiesa, Jeff", Range:=Selection.Range)
+    oAutoText.Value = "Senator Jeff Chiesa (R-NJ)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Coats, Dan", Range:=Selection.Range)
+    oAutoText.Value = "Senator Dan Coats (R-IN)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Coburn, Tom", Range:=Selection.Range)
+    oAutoText.Value = "Senator Tom Coburn (R-OK)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Cochran, Thad", Range:=Selection.Range)
+    oAutoText.Value = "Senator Thad Cochran (R-MS)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Collins, Susan", Range:=Selection.Range)
+    oAutoText.Value = "Senator Susan Collins (R-ME)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Coons, Chris", Range:=Selection.Range)
+    oAutoText.Value = "Senator Chris Coons (D-DE)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Corker, Bob", Range:=Selection.Range)
+    oAutoText.Value = "Senator Bob Corker (R-TN)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Cornyn, John", Range:=Selection.Range)
+    oAutoText.Value = "Senator John Cornyn (R-TX)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Crapo, Michael", Range:=Selection.Range)
+    oAutoText.Value = "Senator Michael Crapo (R-ID)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Cruz, Ted", Range:=Selection.Range)
+    oAutoText.Value = "Senator Ted Cruz (R-TX)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Donnelly, Joe", Range:=Selection.Range)
+    oAutoText.Value = "Senator Joe Donnelly (D-IN)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Durbin, Richard", Range:=Selection.Range)
+    oAutoText.Value = "Senator Richard Durbin (D-IL)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Enzi, Michael", Range:=Selection.Range)
+    oAutoText.Value = "Senator Michael Enzi (R-WY)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Feinstein, Dianne", Range:=Selection.Range)
+    oAutoText.Value = "Senator Dianne Feinstein (D-CA)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Fischer, Deb", Range:=Selection.Range)
+    oAutoText.Value = "Senator Deb Fischer (R-NE)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Flake, Jeff", Range:=Selection.Range)
+    oAutoText.Value = "Senator Jeff Flake (R-AZ)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Franken, Al", Range:=Selection.Range)
+    oAutoText.Value = "Senator Al Franken (D-MN)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Gillibrand, Kirsten", Range:=Selection.Range)
+    oAutoText.Value = "Senator Kirsten Gillibrand (D-NY)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Graham, Lindsey", Range:=Selection.Range)
+    oAutoText.Value = "Senator Lindsey Graham (R-SC)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Grassley, Chuck", Range:=Selection.Range)
+    oAutoText.Value = "Senator Chuck Grassley (R-IA)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Hagan, Kay", Range:=Selection.Range)
+    oAutoText.Value = "Senator Kay Hagan (D-NC)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Harkin, Tom", Range:=Selection.Range)
+    oAutoText.Value = "Senator Tom Harkin (D-IA)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Hatch, Orrin", Range:=Selection.Range)
+    oAutoText.Value = "Senator Orrin Hatch (R-UT)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Heinrich, Martin", Range:=Selection.Range)
+    oAutoText.Value = "Senator Martin Heinrich (D-NM)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Heitkamp, Heidi", Range:=Selection.Range)
+    oAutoText.Value = "Senator Heidi Heitkamp (D-ND)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Heller, Dean", Range:=Selection.Range)
+    oAutoText.Value = "Senator Dean Heller (R-NV)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Hirono, Mazie", Range:=Selection.Range)
+    oAutoText.Value = "Senator Mazie Hirono (D-HI)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Hoeven, John", Range:=Selection.Range)
+    oAutoText.Value = "Senator John Hoeven (R-ND)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Inhofe, James", Range:=Selection.Range)
+    oAutoText.Value = "Senator James Inhofe (R-OK)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Isakson, Johnny", Range:=Selection.Range)
+    oAutoText.Value = "Senator Johnny Isakson (R-GA)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Johanns, Mike", Range:=Selection.Range)
+    oAutoText.Value = "Senator Mike Johanns (R-NE)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Johnson, Ron", Range:=Selection.Range)
+    oAutoText.Value = "Senator Ron Johnson (R-WI)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Johnson, Tim", Range:=Selection.Range)
+    oAutoText.Value = "Senator Tim Johnson (D-SD)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Kaine, Tim", Range:=Selection.Range)
+    oAutoText.Value = "Senator Tim Kaine (D-VA)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="King, Angus", Range:=Selection.Range)
+    oAutoText.Value = "Senator Angus King (I-ME)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Kirk, Mark Steven", Range:=Selection.Range)
+    oAutoText.Value = "Senator Mark Steven Kirk (R-IL)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Klobuchar, Amy", Range:=Selection.Range)
+    oAutoText.Value = "Senator Amy Klobuchar (D-MN)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Landrieu, Mary", Range:=Selection.Range)
+    oAutoText.Value = "Senator Mary Landrieu (D-LA)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Leahy, Pat", Range:=Selection.Range)
+    oAutoText.Value = "Senator Pat Leahy (D-VT)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Lee, Mike", Range:=Selection.Range)
+    oAutoText.Value = "Senator Mike Lee (R-UT)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Levin, Carl", Range:=Selection.Range)
+    oAutoText.Value = "Senator Carl Levin (D-MI)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Manchin, Joe", Range:=Selection.Range)
+    oAutoText.Value = "Senator Joe Manchin (D-WV)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Markey, Ed", Range:=Selection.Range)
+    oAutoText.Value = "Senator Ed Markey (D-MA)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="McCain, John", Range:=Selection.Range)
+    oAutoText.Value = "Senator John McCain (R-AZ)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="McCaskill, Claire", Range:=Selection.Range)
+    oAutoText.Value = "Senator Claire McCaskill (D-MO)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="McConnell, Mitch", Range:=Selection.Range)
+    oAutoText.Value = "Senator Mitch McConnell (R-KY)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Menendez, Robert", Range:=Selection.Range)
+    oAutoText.Value = "Senator Robert Menendez (D-NJ)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Merkley, Jeff", Range:=Selection.Range)
+    oAutoText.Value = "Senator Jeff Merkley (D-OR)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Mikulski, Barbara", Range:=Selection.Range)
+    oAutoText.Value = "Senator Barbara Mikulski (D-MD)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Moran, Jerry", Range:=Selection.Range)
+    oAutoText.Value = "Senator Jerry Moran (R-KS)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Murkowski, Lisa", Range:=Selection.Range)
+    oAutoText.Value = "Senator Lisa Murkowski (R-AK)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Murphy, Chris", Range:=Selection.Range)
+    oAutoText.Value = "Senator Chris Murphy (D-CT)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Murray, Patty", Range:=Selection.Range)
+    oAutoText.Value = "Senator Patty Murray (D-WA)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Nelson, Bill", Range:=Selection.Range)
+    oAutoText.Value = "Senator Bill Nelson (D-FL)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Paul, Rand", Range:=Selection.Range)
+    oAutoText.Value = "Senator Rand Paul (R-KY)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Portman, Rob", Range:=Selection.Range)
+    oAutoText.Value = "Senator Rob Portman (R-OH)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Pryor, Mark", Range:=Selection.Range)
+    oAutoText.Value = "Senator Mark Pryor (D-AR)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Reed, Jack", Range:=Selection.Range)
+    oAutoText.Value = "Senator Jack Reed (D-RI)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Reid, Harry", Range:=Selection.Range)
+    oAutoText.Value = "Senator Harry Reid (D-NV)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Risch, Jim", Range:=Selection.Range)
+    oAutoText.Value = "Senator Jim Risch (R-ID)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Roberts, Pat", Range:=Selection.Range)
+    oAutoText.Value = "Senator Pat Roberts (R-KS)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Rockefeller, Jay", Range:=Selection.Range)
+    oAutoText.Value = "Senator Jay Rockefeller (D-WV)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Rubio, Marco", Range:=Selection.Range)
+    oAutoText.Value = "Senator Marco Rubio (R-FL)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Sanders, Bernie", Range:=Selection.Range)
+    oAutoText.Value = "Senator Bernie Sanders (I-VT)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Schatz, Brian", Range:=Selection.Range)
+    oAutoText.Value = "Senator Brian Schatz (D-HI)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Schumer, Chuck", Range:=Selection.Range)
+    oAutoText.Value = "Senator Chuck Schumer (D-NY)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Scott, Tim", Range:=Selection.Range)
+    oAutoText.Value = "Senator Tim Scott (R-SC)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Sessions, Jeff", Range:=Selection.Range)
+    oAutoText.Value = "Senator Jeff Sessions (R-AL)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Shaheen, Jeanne", Range:=Selection.Range)
+    oAutoText.Value = "Senator Jeanne Shaheen (D-NH)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Shelby, Richard", Range:=Selection.Range)
+    oAutoText.Value = "Senator Richard Shelby (R-AL)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Stabenow, Debbie", Range:=Selection.Range)
+    oAutoText.Value = "Senator Debbie Stabenow (D-MI)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Tester, Jon", Range:=Selection.Range)
+    oAutoText.Value = "Senator Jon Tester (D-MT)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Thune, John", Range:=Selection.Range)
+    oAutoText.Value = "Senator John Thune (R-SD)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Toomey, Pat", Range:=Selection.Range)
+    oAutoText.Value = "Senator Pat Toomey (R-PA)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Udall, Mark", Range:=Selection.Range)
+    oAutoText.Value = "Senator Mark Udall (D-CO)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Udall, Tom", Range:=Selection.Range)
+    oAutoText.Value = "Senator Tom Udall (D-NM)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Vitter, Dave", Range:=Selection.Range)
+    oAutoText.Value = "Senator Dave Vitter (R-LA)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Warner, Mark", Range:=Selection.Range)
+    oAutoText.Value = "Senator Mark Warner (D-VA)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Warren, Elizabeth", Range:=Selection.Range)
+    oAutoText.Value = "Senator Elizabeth Warren (D-MA)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Whitehouse, Sheldon", Range:=Selection.Range)
+    oAutoText.Value = "Senator Sheldon Whitehouse (D-RI)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Wicker, Roger", Range:=Selection.Range)
+    oAutoText.Value = "Senator Roger Wicker (R-MS)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries _
+        .Add(Name:="Wyden, Ron", Range:=Selection.Range)
+    oAutoText.Value = "Senator Ron Wyden (D-OR)"
