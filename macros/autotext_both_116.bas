@@ -1,0 +1,1094 @@
+
+Sub AutoTextCongress()
+
+Dim oAutoText As AutoTextEntry
+
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Abraham, Ralph", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Ralph Abraham (R-LA-5)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Adams, Alma", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Alma Adams (D-NC-12)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Aderholt, Robert", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Robert Aderholt (R-AL-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Aguilar, Pete", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Pete Aguilar (D-CA-31)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Allen, Rick", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Rick Allen (R-GA-12)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Allred, Colin", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Colin Allred (D-TX-32)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Amash, Justin", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Justin Amash (R-MI-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Amodei, Mark", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Mark Amodei (R-NV-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Armstrong, Kelly", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Kelly Armstrong (R-ND-At-Large)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Arrington, Jodey", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Jodey Arrington (R-TX-19)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Axne, Cynthia", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Cynthia Axne (D-IA-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Babin, Brian", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Brian Babin (R-TX-36)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Bacon, Don", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Don Bacon (R-NE-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Baird, James", Range:=Selection.Range)
+	oAutoText.Value = "Rep. James Baird (R-IN-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Balderson, Troy", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Troy Balderson (R-OH-12)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Banks, Jim", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Jim Banks (R-IN-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Barr, Andy", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Andy Barr (R-KY-6)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Barragán, Nanette", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Nanette Barragán (D-CA-44)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Bass, Karen", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Karen Bass (D-CA-37)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Beatty, Joyce", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Joyce Beatty (D-OH-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Bera, Ami", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Ami Bera (D-CA-7)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Bergman, Jack", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Jack Bergman (R-MI-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Beyer, Donald", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Donald Beyer (D-VA-8)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Biggs, Andy", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Andy Biggs (R-AZ-5)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Bilirakis, Gus", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Gus Bilirakis (R-FL-12)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Bishop, Sanford", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Sanford Bishop (D-GA-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Bishop, Rob", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Rob Bishop (R-UT-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Blumenauer, Earl", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Earl Blumenauer (D-OR-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Blunt Rochester, Lisa", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Lisa Blunt Rochester (D-DE-At-Large)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Bonamici, Suzanne", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Suzanne Bonamici (D-OR-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Bost, Mike", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Mike Bost (R-IL-12)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Boyle, Brendan", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Brendan Boyle (D-PA-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Brady, Kevin", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Kevin Brady (R-TX-8)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Brindisi, Anthony", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Anthony Brindisi (D-NY-22)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Brooks, Mo", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Mo Brooks (R-AL-5)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Brooks, Susan", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Susan Brooks (R-IN-5)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Brown, Anthony", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Anthony Brown (D-MD-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Brownley, Julia", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Julia Brownley (D-CA-26)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Buchanan, Vern", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Vern Buchanan (R-FL-16)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Buck, Ken", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Ken Buck (R-CO-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Bucshon, Larry", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Larry Bucshon (R-IN-8)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Budd, Ted", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Ted Budd (R-NC-13)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Burchett, Tim", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Tim Burchett (R-TN-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Burgess, Michael", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Michael Burgess (R-TX-26)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Bustos, Cheri", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Cheri Bustos (D-IL-17)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Butterfield, G.", Range:=Selection.Range)
+	oAutoText.Value = "Rep. G. Butterfield (D-NC-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Byrne, Bradley", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Bradley Byrne (R-AL-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Calvert, Ken", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Ken Calvert (R-CA-42)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Carbajal, Salud", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Salud Carbajal (D-CA-24)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Cárdenas, Tony", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Tony Cárdenas (D-CA-29)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Carson, André", Range:=Selection.Range)
+	oAutoText.Value = "Rep. André Carson (D-IN-7)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Carter, John", Range:=Selection.Range)
+	oAutoText.Value = "Rep. John Carter (R-TX-31)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Carter, Buddy", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Buddy Carter (R-GA-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Cartwright, Matt", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Matt Cartwright (D-PA-8)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Case, Ed", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Ed Case (D-HI-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Casten, Sean", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Sean Casten (D-IL-6)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Castor, Kathy", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Kathy Castor (D-FL-14)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Castro, Joaquín", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Joaquín Castro (D-TX-20)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Chabot, Steven", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Steven Chabot (R-OH-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Cheney, Liz", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Liz Cheney (R-WY-At-Large)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Chu, Judy", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Judy Chu (D-CA-27)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Cicilline, David", Range:=Selection.Range)
+	oAutoText.Value = "Rep. David Cicilline (D-RI-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Cisneros, Gilbert", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Gilbert Cisneros (D-CA-39)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Clark, Katherine", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Katherine Clark (D-MA-5)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Clarke, Yvette", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Yvette Clarke (D-NY-9)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Clay, William", Range:=Selection.Range)
+	oAutoText.Value = "Rep. William Clay (D-MO-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Cleaver, Emanuel", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Emanuel Cleaver (D-MO-5)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Cline, Ben", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Ben Cline (R-VA-6)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Cloud, Michael", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Michael Cloud (R-TX-27)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Clyburn, James", Range:=Selection.Range)
+	oAutoText.Value = "Rep. James Clyburn (D-SC-6)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Cohen, Steve", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Steve Cohen (D-TN-9)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Cole, Tom", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Tom Cole (R-OK-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Collins, Doug", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Doug Collins (R-GA-9)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Collins, Chris", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Chris Collins (R-NY-27)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Comer, James", Range:=Selection.Range)
+	oAutoText.Value = "Rep. James Comer (R-KY-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Conaway, K.", Range:=Selection.Range)
+	oAutoText.Value = "Rep. K. Conaway (R-TX-11)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Connolly, Gerald", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Gerald Connolly (D-VA-11)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Cook, Paul", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Paul Cook (R-CA-8)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Cooper, Jim", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Jim Cooper (D-TN-5)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Correa, J.", Range:=Selection.Range)
+	oAutoText.Value = "Rep. J. Correa (D-CA-46)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Costa, Jim", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Jim Costa (D-CA-16)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Courtney, Joe", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Joe Courtney (D-CT-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Cox, TJ", Range:=Selection.Range)
+	oAutoText.Value = "Rep. TJ Cox (D-CA-21)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Craig, Angie", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Angie Craig (D-MN-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Crawford, Rick", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Rick Crawford (R-AR-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Crenshaw, Dan", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Dan Crenshaw (R-TX-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Crist, Charlie", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Charlie Crist (D-FL-13)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Crow, Jason", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Jason Crow (D-CO-6)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Cuellar, Henry", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Henry Cuellar (D-TX-28)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Cummings, Elijah", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Elijah Cummings (D-MD-7)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Cunningham, Joe", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Joe Cunningham (D-SC-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Curtis, John", Range:=Selection.Range)
+	oAutoText.Value = "Rep. John Curtis (R-UT-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Davids, Sharice", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Sharice Davids (D-KS-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Davidson, Warren", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Warren Davidson (R-OH-8)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Davis, Susan", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Susan Davis (D-CA-53)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Davis, Rodney", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Rodney Davis (R-IL-13)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Davis, Danny", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Danny Davis (D-IL-7)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Dean, Madeleine", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Madeleine Dean (D-PA-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="DeFazio, Peter", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Peter DeFazio (D-OR-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="DeGette, Diana", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Diana DeGette (D-CO-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="DeLauro, Rosa", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Rosa DeLauro (D-CT-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="DelBene, Suzan", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Suzan DelBene (D-WA-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Delgado, Antonio", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Antonio Delgado (D-NY-19)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Demings, Val", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Val Demings (D-FL-10)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="DeSaulnier, Mark", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Mark DeSaulnier (D-CA-11)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="DesJarlais, Scott", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Scott DesJarlais (R-TN-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Deutch, Ted", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Ted Deutch (D-FL-22)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Diaz-Balart, Mario", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Mario Diaz-Balart (R-FL-25)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Dingell, Debbie", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Debbie Dingell (D-MI-12)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Doggett, Lloyd", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Lloyd Doggett (D-TX-35)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Doyle, Mike", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Mike Doyle (D-PA-18)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Duffy, Sean", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Sean Duffy (R-WI-7)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Duncan, Jeffrey", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Jeffrey Duncan (R-SC-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Dunn, Neal", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Neal Dunn (R-FL-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Emmer, Tom", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Tom Emmer (R-MN-6)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Engel, Eliot", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Eliot Engel (D-NY-16)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Escobar, Veronica", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Veronica Escobar (D-TX-16)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Eshoo, Anna", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Anna Eshoo (D-CA-18)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Espaillat, Adriano", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Adriano Espaillat (D-NY-13)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Estes, Ron", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Ron Estes (R-KS-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Evans, Dwight", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Dwight Evans (D-PA-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Ferguson, A.", Range:=Selection.Range)
+	oAutoText.Value = "Rep. A. Ferguson (R-GA-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Finkenauer, Abby", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Abby Finkenauer (D-IA-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Fitzpatrick, Brian", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Brian Fitzpatrick (R-PA-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Fleischmann, Chuck", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Chuck Fleischmann (R-TN-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Fletcher, Lizzie", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Lizzie Fletcher (D-TX-7)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Flores, Bill", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Bill Flores (R-TX-17)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Fortenberry, Jeff", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Jeff Fortenberry (R-NE-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Foster, Bill", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Bill Foster (D-IL-11)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Foxx, Virginia", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Virginia Foxx (R-NC-5)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Frankel, Lois", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Lois Frankel (D-FL-21)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Fudge, Marcia", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Marcia Fudge (D-OH-11)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Fulcher, Russ", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Russ Fulcher (R-ID-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Gabbard, Tulsi", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Tulsi Gabbard (D-HI-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Gaetz, Matt", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Matt Gaetz (R-FL-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Gallagher, Mike", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Mike Gallagher (R-WI-8)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Gallego, Ruben", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Ruben Gallego (D-AZ-7)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Garamendi, John", Range:=Selection.Range)
+	oAutoText.Value = "Rep. John Garamendi (D-CA-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="García, Jesús", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Jesús García (D-IL-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Garcia, Sylvia", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Sylvia Garcia (D-TX-29)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Gianforte, Greg", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Greg Gianforte (R-MT-At-Large)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Gibbs, Bob", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Bob Gibbs (R-OH-7)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Gohmert, Louie", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Louie Gohmert (R-TX-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Golden, Jared", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Jared Golden (D-ME-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Gomez, Jimmy", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Jimmy Gomez (D-CA-34)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Gonzalez, Anthony", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Anthony Gonzalez (R-OH-16)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Gonzalez, Vicente", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Vicente Gonzalez (D-TX-15)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="González-Colón, Jenniffer", Range:=Selection.Range)
+	oAutoText.Value = "R.C. Jenniffer González-Colón (R-PR-At-Large)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Gooden, Lance", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Lance Gooden (R-TX-5)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Gosar, Paul", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Paul Gosar (R-AZ-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Gottheimer, Josh", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Josh Gottheimer (D-NJ-5)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Granger, Kay", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Kay Granger (R-TX-12)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Graves, Tom", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Tom Graves (R-GA-14)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Graves, Sam", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Sam Graves (R-MO-6)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Graves, Garret", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Garret Graves (R-LA-6)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Green, Al", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Al Green (D-TX-9)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Green, Mark", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Mark Green (R-TN-7)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Griffith, Morgan", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Morgan Griffith (R-VA-9)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Grijalva, Raúl", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Raúl Grijalva (D-AZ-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Grothman, Glenn", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Glenn Grothman (R-WI-6)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Guest, Michael", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Michael Guest (R-MS-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Guthrie, Brett", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Brett Guthrie (R-KY-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Haaland, Debra", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Debra Haaland (D-NM-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Hagedorn, Jim", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Jim Hagedorn (R-MN-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Hanabusa, Colleen", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Colleen Hanabusa (D-HI-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Harder, Josh", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Josh Harder (D-CA-10)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Harris, Andy", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Andy Harris (R-MD-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Hartzler, Vicky", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Vicky Hartzler (R-MO-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Hastings, Alcee", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Alcee Hastings (D-FL-20)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Hayes, Jahana", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Jahana Hayes (D-CT-5)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Heck, Denny", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Denny Heck (D-WA-10)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Hern, Kevin", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Kevin Hern (R-OK-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Herrera Beutler, Jaime", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Jaime Herrera Beutler (R-WA-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Hice, Jody", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Jody Hice (R-GA-10)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Higgins, Brian", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Brian Higgins (D-NY-26)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Higgins, Clay", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Clay Higgins (R-LA-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Hill, French", Range:=Selection.Range)
+	oAutoText.Value = "Rep. French Hill (R-AR-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Hill, Katie", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Katie Hill (D-CA-25)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Himes, Jim", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Jim Himes (D-CT-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Holding, George", Range:=Selection.Range)
+	oAutoText.Value = "Rep. George Holding (R-NC-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Hollingsworth, Trey", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Trey Hollingsworth (R-IN-9)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Horn, Kendra", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Kendra Horn (D-OK-5)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Horsford, Steven", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Steven Horsford (D-NV-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Houlahan, Chrissy", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Chrissy Houlahan (D-PA-6)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Hoyer, Steny", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Steny Hoyer (D-MD-5)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Hudson, Richard", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Richard Hudson (R-NC-8)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Huffman, Jared", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Jared Huffman (D-CA-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Huizenga, Bill", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Bill Huizenga (R-MI-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Hunter, Duncan", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Duncan Hunter (R-CA-50)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Hurd, Will", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Will Hurd (R-TX-23)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Jackson Lee, Sheila", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Sheila Jackson Lee (D-TX-18)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Jayapal, Pramila", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Pramila Jayapal (D-WA-7)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Jeffries, Hakeem", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Hakeem Jeffries (D-NY-8)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Johnson, Eddie", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Eddie Johnson (D-TX-30)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Johnson, Dusty", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Dusty Johnson (R-SD-At-Large)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Johnson, Bill", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Bill Johnson (R-OH-6)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Johnson, Hank", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Hank Johnson (D-GA-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Johnson, Mike", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Mike Johnson (R-LA-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Jones, Walter", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Walter Jones (R-NC-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Jordan, Jim", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Jim Jordan (R-OH-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Joyce, John", Range:=Selection.Range)
+	oAutoText.Value = "Rep. John Joyce (R-PA-13)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Joyce, Dave", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Dave Joyce (R-OH-14)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Kaptur, Marcy", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Marcy Kaptur (D-OH-9)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Katko, John", Range:=Selection.Range)
+	oAutoText.Value = "Rep. John Katko (R-NY-24)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Keating, Bill", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Bill Keating (D-MA-9)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Kelly, Robin", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Robin Kelly (D-IL-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Kelly, Mike", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Mike Kelly (R-PA-16)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Kelly, Trent", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Trent Kelly (R-MS-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Kennedy, Joseph", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Joseph Kennedy (D-MA-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Khanna, Ro", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Ro Khanna (D-CA-17)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Kildee, Dan", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Dan Kildee (D-MI-5)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Kilmer, Derek", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Derek Kilmer (D-WA-6)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Kim, Andy", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Andy Kim (D-NJ-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Kind, Ron", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Ron Kind (D-WI-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="King, Peter", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Peter King (R-NY-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="King, Steve", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Steve King (R-IA-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Kinzinger, Adam", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Adam Kinzinger (R-IL-16)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Kirkpatrick, Ann", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Ann Kirkpatrick (D-AZ-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Krishnamoorthi, Raja", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Raja Krishnamoorthi (D-IL-8)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Kuster, Ann", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Ann Kuster (D-NH-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Kustoff, David", Range:=Selection.Range)
+	oAutoText.Value = "Rep. David Kustoff (R-TN-8)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="LaHood, Darin", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Darin LaHood (R-IL-18)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="LaMalfa, Doug", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Doug LaMalfa (R-CA-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Lamb, Conor", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Conor Lamb (D-PA-17)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Lamborn, Doug", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Doug Lamborn (R-CO-5)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Langevin, Jim", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Jim Langevin (D-RI-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Larsen, Rick", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Rick Larsen (D-WA-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Larson, John", Range:=Selection.Range)
+	oAutoText.Value = "Rep. John Larson (D-CT-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Latta, Robert", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Robert Latta (R-OH-5)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Lawrence, Brenda", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Brenda Lawrence (D-MI-14)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Lawson, Al", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Al Lawson (D-FL-5)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Lee, Susie", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Susie Lee (D-NV-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Lee, Barbara", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Barbara Lee (D-CA-13)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Lesko, Debbie", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Debbie Lesko (R-AZ-8)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Levin, Andy", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Andy Levin (D-MI-9)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Levin, Mike", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Mike Levin (D-CA-49)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Lewis, John", Range:=Selection.Range)
+	oAutoText.Value = "Rep. John Lewis (D-GA-5)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Lieu, Ted", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Ted Lieu (D-CA-33)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Lipinski, Daniel", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Daniel Lipinski (D-IL-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Loebsack, Dave", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Dave Loebsack (D-IA-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Lofgren, Zoe", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Zoe Lofgren (D-CA-19)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Long, Billy", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Billy Long (R-MO-7)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Loudermilk, Barry", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Barry Loudermilk (R-GA-11)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Lowenthal, Alan", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Alan Lowenthal (D-CA-47)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Lowey, Nita", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Nita Lowey (D-NY-17)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Lucas, Frank", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Frank Lucas (R-OK-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Luetkemeyer, Blaine", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Blaine Luetkemeyer (R-MO-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Luján, Ben", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Ben Luján (D-NM-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Luria, Elaine", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Elaine Luria (D-VA-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Lynch, Stephen", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Stephen Lynch (D-MA-8)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Malinowski, Tom", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Tom Malinowski (D-NJ-7)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Maloney, Sean", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Sean Maloney (D-NY-18)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Maloney, Carolyn", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Carolyn Maloney (D-NY-12)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Marchant, Kenny", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Kenny Marchant (R-TX-24)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Marino, Tom", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Tom Marino (R-PA-12)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Marshall, Roger", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Roger Marshall (R-KS-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Massie, Thomas", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Thomas Massie (R-KY-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Mast, Brian", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Brian Mast (R-FL-18)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Matsui, Doris", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Doris Matsui (D-CA-6)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="McAdams, Ben", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Ben McAdams (D-UT-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="McBath, Lucy", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Lucy McBath (D-GA-6)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="McCarthy, Kevin", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Kevin McCarthy (R-CA-23)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="McCaul, Michael", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Michael McCaul (R-TX-10)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="McClintock, Tom", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Tom McClintock (R-CA-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="McCollum, Betty", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Betty McCollum (D-MN-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="McEachin, A.", Range:=Selection.Range)
+	oAutoText.Value = "Rep. A. McEachin (D-VA-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="McGovern, Jim", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Jim McGovern (D-MA-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="McHenry, Patrick", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Patrick McHenry (R-NC-10)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="McKinley, David", Range:=Selection.Range)
+	oAutoText.Value = "Rep. David McKinley (R-WV-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="McMorris Rodgers, Cathy", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Cathy McMorris Rodgers (R-WA-5)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="McNerney, Jerry", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Jerry McNerney (D-CA-9)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Meadows, Mark", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Mark Meadows (R-NC-11)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Meeks, Gregory", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Gregory Meeks (D-NY-5)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Meng, Grace", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Grace Meng (D-NY-6)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Meuser, Daniel", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Daniel Meuser (R-PA-9)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Miller, Carol", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Carol Miller (R-WV-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Mitchell, Paul", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Paul Mitchell (R-MI-10)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Moolenaar, John", Range:=Selection.Range)
+	oAutoText.Value = "Rep. John Moolenaar (R-MI-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Mooney, Alex", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Alex Mooney (R-WV-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Moore, Gwen", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Gwen Moore (D-WI-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Morelle, Joe", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Joe Morelle (D-NY-25)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Moulton, Seth", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Seth Moulton (D-MA-6)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Mucarsel-Powell, Debbie", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Debbie Mucarsel-Powell (D-FL-26)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Mullin, Markwayne", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Markwayne Mullin (R-OK-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Murphy, Stephanie", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Stephanie Murphy (D-FL-7)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Nadler, Jerrold", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Jerrold Nadler (D-NY-10)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Napolitano, Grace", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Grace Napolitano (D-CA-32)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Neal, Richard", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Richard Neal (D-MA-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Neguse, Joe", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Joe Neguse (D-CO-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Newhouse, Dan", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Dan Newhouse (R-WA-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Norcross, Donald", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Donald Norcross (D-NJ-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Norman, Ralph", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Ralph Norman (R-SC-5)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Norton, Eleanor", Range:=Selection.Range)
+	oAutoText.Value = "Del. Eleanor Norton (D-DC-At-Large)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Nunes, Devin", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Devin Nunes (R-CA-22)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="O'Halleran, Tom", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Tom O'Halleran (D-AZ-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Ocasio-Cortez, Alexandria", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Alexandria Ocasio-Cortez (D-NY-14)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Olson, Pete", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Pete Olson (R-TX-22)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Omar, Ilhan", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Ilhan Omar (D-MN-5)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Palazzo, Steven", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Steven Palazzo (R-MS-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Pallone, Frank", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Frank Pallone (D-NJ-6)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Palmer, Gary", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Gary Palmer (R-AL-6)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Panetta, Jimmy", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Jimmy Panetta (D-CA-20)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Pappas, Chris", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Chris Pappas (D-NH-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Pascrell, Bill", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Bill Pascrell (D-NJ-9)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Payne, Donald", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Donald Payne (D-NJ-10)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Pelosi, Nancy", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Nancy Pelosi (D-CA-12)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Pelosi, Nancy", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Nancy Pelosi (D-CA-12)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Pence, Greg", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Greg Pence (R-IN-6)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Perlmutter, Ed", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Ed Perlmutter (D-CO-7)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Perry, Scott", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Scott Perry (R-PA-10)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Peters, Scott", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Scott Peters (D-CA-52)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Peterson, Collin", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Collin Peterson (D-MN-7)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Phillips, Dean", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Dean Phillips (D-MN-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Pingree, Chellie", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Chellie Pingree (D-ME-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Plaskett, Stacey", Range:=Selection.Range)
+	oAutoText.Value = "Del. Stacey Plaskett (D-VI-At-Large)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Pocan, Mark", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Mark Pocan (D-WI-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Porter, Katie", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Katie Porter (D-CA-45)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Posey, Bill", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Bill Posey (R-FL-8)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Pressley, Ayanna", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Ayanna Pressley (D-MA-7)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Price, David", Range:=Selection.Range)
+	oAutoText.Value = "Rep. David Price (D-NC-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Quigley, Mike", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Mike Quigley (D-IL-5)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Radewagen, Amata", Range:=Selection.Range)
+	oAutoText.Value = "Del. Amata Radewagen (R-AS-At-Large)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Raskin, Jamie", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Jamie Raskin (D-MD-8)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Ratcliffe, John", Range:=Selection.Range)
+	oAutoText.Value = "Rep. John Ratcliffe (R-TX-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Reed, Tom", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Tom Reed (R-NY-23)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Reschenthaler, Guy", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Guy Reschenthaler (R-PA-14)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Rice, Kathleen", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Kathleen Rice (D-NY-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Rice, Tom", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Tom Rice (R-SC-7)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Richmond, Cedric", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Cedric Richmond (D-LA-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Riggleman, Denver", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Denver Riggleman (R-VA-5)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Roby, Martha", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Martha Roby (R-AL-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Roe, Phil", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Phil Roe (R-TN-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Rogers, Harold", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Harold Rogers (R-KY-5)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Rogers, Mike", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Mike Rogers (R-AL-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Rooney, Francis", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Francis Rooney (R-FL-19)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Rose, Max", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Max Rose (D-NY-11)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Rose, John", Range:=Selection.Range)
+	oAutoText.Value = "Rep. John Rose (R-TN-6)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Rouda, Harley", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Harley Rouda (D-CA-48)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Rouzer, David", Range:=Selection.Range)
+	oAutoText.Value = "Rep. David Rouzer (R-NC-7)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Roy, Chip", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Chip Roy (R-TX-21)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Roybal-Allard, Lucille", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Lucille Roybal-Allard (D-CA-40)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Ruiz, Raul", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Raul Ruiz (D-CA-36)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Ruppersberger, C.A. Dutch", Range:=Selection.Range)
+	oAutoText.Value = "Rep. C.A. Dutch Ruppersberger (D-MD-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Rush, Bobby", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Bobby Rush (D-IL-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Rutherford, John", Range:=Selection.Range)
+	oAutoText.Value = "Rep. John Rutherford (R-FL-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Ryan, Tim", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Tim Ryan (D-OH-13)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Sablan, Gregorio", Range:=Selection.Range)
+	oAutoText.Value = "Del. Gregorio Sablan (D-MP-At-Large)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="San Nicolas, Michael", Range:=Selection.Range)
+	oAutoText.Value = "Del. Michael San Nicolas (D-GU-At-Large)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Sánchez, Linda", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Linda Sánchez (D-CA-38)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Sarbanes, John", Range:=Selection.Range)
+	oAutoText.Value = "Rep. John Sarbanes (D-MD-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Scalise, Steve", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Steve Scalise (R-LA-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Scanlon, Mary", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Mary Scanlon (D-PA-5)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Schakowsky, Jan", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Jan Schakowsky (D-IL-9)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Schiff, Adam", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Adam Schiff (D-CA-28)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Schneider, Brad", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Brad Schneider (D-IL-10)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Schrader, Kurt", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Kurt Schrader (D-OR-5)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Schrier, Kim", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Kim Schrier (D-WA-8)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Schweikert, David", Range:=Selection.Range)
+	oAutoText.Value = "Rep. David Schweikert (R-AZ-6)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Scott, Austin", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Austin Scott (R-GA-8)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Scott, Robert", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Robert Scott (D-VA-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Scott, David", Range:=Selection.Range)
+	oAutoText.Value = "Rep. David Scott (D-GA-13)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Sensenbrenner, F.", Range:=Selection.Range)
+	oAutoText.Value = "Rep. F. Sensenbrenner (R-WI-5)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Serrano, José", Range:=Selection.Range)
+	oAutoText.Value = "Rep. José Serrano (D-NY-15)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Sewell, Terri", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Terri Sewell (D-AL-7)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Shalala, Donna", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Donna Shalala (D-FL-27)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Sherman, Brad", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Brad Sherman (D-CA-30)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Sherrill, Mikie", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Mikie Sherrill (D-NJ-11)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Shimkus, John", Range:=Selection.Range)
+	oAutoText.Value = "Rep. John Shimkus (R-IL-15)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Simpson, Mike", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Mike Simpson (R-ID-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Sires, Albio", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Albio Sires (D-NJ-8)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Slotkin, Elissa", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Elissa Slotkin (D-MI-8)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Smith, Christopher", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Christopher Smith (R-NJ-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Smith, Adam", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Adam Smith (D-WA-9)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Smith, Adrian", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Adrian Smith (R-NE-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Smith, Jason", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Jason Smith (R-MO-8)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Smucker, Lloyd", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Lloyd Smucker (R-PA-11)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Soto, Darren", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Darren Soto (D-FL-9)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Spanberger, Abigail", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Abigail Spanberger (D-VA-7)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Spano, Ross", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Ross Spano (R-FL-15)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Speier, Jackie", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Jackie Speier (D-CA-14)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Stanton, Greg", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Greg Stanton (D-AZ-9)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Stauber, Pete", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Pete Stauber (R-MN-8)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Stefanik, Elise", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Elise Stefanik (R-NY-21)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Steil, Bryan", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Bryan Steil (R-WI-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Steube, Greg", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Greg Steube (R-FL-17)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Stevens, Haley", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Haley Stevens (D-MI-11)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Stewart, Chris", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Chris Stewart (R-UT-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Stivers, Steve", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Steve Stivers (R-OH-15)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Suozzi, Thomas", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Thomas Suozzi (D-NY-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Swalwell, Eric", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Eric Swalwell (D-CA-15)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Takano, Mark", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Mark Takano (D-CA-41)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Taylor, Van", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Van Taylor (R-TX-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Tenney, Claudia", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Claudia Tenney (R-NY-22)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Thompson, Glenn", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Glenn Thompson (R-PA-15)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Thompson, Bennie", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Bennie Thompson (D-MS-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Thompson, Mike", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Mike Thompson (D-CA-5)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Thornberry, William", Range:=Selection.Range)
+	oAutoText.Value = "Rep. William Thornberry (R-TX-13)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Timmons, William", Range:=Selection.Range)
+	oAutoText.Value = "Rep. William Timmons (R-SC-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Tipton, Scott", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Scott Tipton (R-CO-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Titus, Dina", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Dina Titus (D-NV-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Tlaib, Rashida", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Rashida Tlaib (D-MI-13)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Tonko, Paul", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Paul Tonko (D-NY-20)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Torres, Norma", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Norma Torres (D-CA-35)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Torres Small, Xochitl", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Xochitl Torres Small (D-NM-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Trahan, Lori", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Lori Trahan (D-MA-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Trone, David", Range:=Selection.Range)
+	oAutoText.Value = "Rep. David Trone (D-MD-6)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Turner, Michael", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Michael Turner (R-OH-10)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Underwood, Lauren", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Lauren Underwood (D-IL-14)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Upton, Fred", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Fred Upton (R-MI-6)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Van Drew, Jefferson", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Jefferson Van Drew (D-NJ-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Vargas, Juan", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Juan Vargas (D-CA-51)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Veasey, Marc", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Marc Veasey (D-TX-33)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Vela, Filemon", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Filemon Vela (D-TX-34)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Velázquez, Nydia", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Nydia Velázquez (D-NY-7)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Visclosky, Peter", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Peter Visclosky (D-IN-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Wagner, Ann", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Ann Wagner (R-MO-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Walberg, Tim", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Tim Walberg (R-MI-7)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Walden, Greg", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Greg Walden (R-OR-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Walker, Mark", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Mark Walker (R-NC-6)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Walorski, Jackie", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Jackie Walorski (R-IN-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Waltz, Michael", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Michael Waltz (R-FL-6)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Wasserman Schultz, Debbie", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Debbie Wasserman Schultz (D-FL-23)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Waters, Maxine", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Maxine Waters (D-CA-43)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Watkins, Steven", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Steven Watkins (R-KS-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Watson Coleman, Bonnie", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Bonnie Watson Coleman (D-NJ-12)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Weber, Randy", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Randy Weber (R-TX-14)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Webster, Daniel", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Daniel Webster (R-FL-11)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Welch, Peter", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Peter Welch (D-VT-At-Large)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Wenstrup, Brad", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Brad Wenstrup (R-OH-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Westerman, Bruce", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Bruce Westerman (R-AR-4)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Wexton, Jennifer", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Jennifer Wexton (D-VA-10)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Wild, Susan", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Susan Wild (D-PA-7)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Williams, Roger", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Roger Williams (R-TX-25)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Wilson, Frederica", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Frederica Wilson (D-FL-24)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Wilson, Joe", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Joe Wilson (R-SC-2)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Wittman, Robert", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Robert Wittman (R-VA-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Womack, Steve", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Steve Womack (R-AR-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Woodall, Rob", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Rob Woodall (R-GA-7)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Wright, Ron", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Ron Wright (R-TX-6)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Yarmuth, John", Range:=Selection.Range)
+	oAutoText.Value = "Rep. John Yarmuth (D-KY-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Yoho, Ted", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Ted Yoho (R-FL-3)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Young, Don", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Don Young (R-AK-At-Large)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Zeldin, Lee", Range:=Selection.Range)
+	oAutoText.Value = "Rep. Lee Zeldin (R-NY-1)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Alexander, Lamar", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Lamar Alexander (R-TN)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Baldwin, Tammy", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Tammy Baldwin (D-WI)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Barrasso, John", Range:=Selection.Range)
+	oAutoText.Value = "Sen. John Barrasso (R-WY)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Bennet, Michael", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Michael Bennet (D-CO)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Blackburn, Marsha", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Marsha Blackburn (R-TN)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Blumenthal, Richard", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Richard Blumenthal (D-CT)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Blunt, Roy", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Roy Blunt (R-MO)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Booker, Cory", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Cory Booker (D-NJ)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Boozman, John", Range:=Selection.Range)
+	oAutoText.Value = "Sen. John Boozman (R-AR)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Braun, Mike", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Mike Braun (R-IN)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Brown, Sherrod", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Sherrod Brown (D-OH)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Burr, Richard", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Richard Burr (R-NC)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Cantwell, Maria", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Maria Cantwell (D-WA)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Capito, Shelley", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Shelley Capito (R-WV)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Cardin, Benjamin", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Benjamin Cardin (D-MD)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Carper, Thomas", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Thomas Carper (D-DE)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Casey, Bob", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Bob Casey (D-PA)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Cassidy, Bill", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Bill Cassidy (R-LA)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Collins, Susan", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Susan Collins (R-ME)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Coons, Christopher", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Christopher Coons (D-DE)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Cornyn, John", Range:=Selection.Range)
+	oAutoText.Value = "Sen. John Cornyn (R-TX)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Cortez Masto, Catherine", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Catherine Cortez Masto (D-NV)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Cotton, Tom", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Tom Cotton (R-AR)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Cramer, Kevin", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Kevin Cramer (R-ND)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Crapo, Michael", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Michael Crapo (R-ID)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Cruz, Ted", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Ted Cruz (R-TX)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Daines, Steve", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Steve Daines (R-MT)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Duckworth, Tammy", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Tammy Duckworth (D-IL)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Durbin, Richard", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Richard Durbin (D-IL)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Enzi, Michael", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Michael Enzi (R-WY)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Ernst, Joni", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Joni Ernst (R-IA)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Feinstein, Dianne", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Dianne Feinstein (D-CA)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Fischer, Deb", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Deb Fischer (R-NE)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Gardner, Cory", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Cory Gardner (R-CO)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Gillibrand, Kirsten", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Kirsten Gillibrand (D-NY)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Graham, Lindsey", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Lindsey Graham (R-SC)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Grassley, Charles", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Charles Grassley (R-IA)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Harris, Kamala", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Kamala Harris (D-CA)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Hassan, Margaret", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Margaret Hassan (D-NH)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Hawley, Joshua", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Joshua Hawley (R-MO)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Heinrich, Martin", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Martin Heinrich (D-NM)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Hirono, Mazie", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Mazie Hirono (D-HI)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Hoeven, John", Range:=Selection.Range)
+	oAutoText.Value = "Sen. John Hoeven (R-ND)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Hyde-Smith, Cindy", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Cindy Hyde-Smith (R-MS)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Inhofe, James", Range:=Selection.Range)
+	oAutoText.Value = "Sen. James Inhofe (R-OK)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Isakson, Johnny", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Johnny Isakson (R-GA)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Johnson, Ron", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Ron Johnson (R-WI)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Jones, Doug", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Doug Jones (D-AL)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Kaine, Tim", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Tim Kaine (D-VA)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Kennedy, John", Range:=Selection.Range)
+	oAutoText.Value = "Sen. John Kennedy (R-LA)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="King, Angus", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Angus King (ID-ME)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Klobuchar, Amy", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Amy Klobuchar (D-MN)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Lankford, James", Range:=Selection.Range)
+	oAutoText.Value = "Sen. James Lankford (R-OK)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Leahy, Patrick", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Patrick Leahy (D-VT)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Lee, Mike", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Mike Lee (R-UT)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Manchin, Joe", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Joe Manchin (D-WV)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Markey, Edward", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Edward Markey (D-MA)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="McConnell, Mitch", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Mitch McConnell (R-KY)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="McSally, Martha", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Martha McSally (R-AZ)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Menendez, Robert", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Robert Menendez (D-NJ)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Merkley, Jeff", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Jeff Merkley (D-OR)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Moran, Jerry", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Jerry Moran (R-KS)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Murkowski, Lisa", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Lisa Murkowski (R-AK)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Murphy, Christopher", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Christopher Murphy (D-CT)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Murray, Patty", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Patty Murray (D-WA)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Paul, Rand", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Rand Paul (R-KY)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Perdue, David", Range:=Selection.Range)
+	oAutoText.Value = "Sen. David Perdue (R-GA)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Peters, Gary", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Gary Peters (D-MI)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Portman, Rob", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Rob Portman (R-OH)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Reed, Jack", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Jack Reed (D-RI)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Risch, Jim", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Jim Risch (R-ID)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Roberts, Pat", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Pat Roberts (R-KS)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Romney, Mitt", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Mitt Romney (R-UT)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Rosen, Jacky", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Jacky Rosen (D-NV)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Rounds, Mike", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Mike Rounds (R-SD)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Rubio, Marco", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Marco Rubio (R-FL)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Sanders, Bernard", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Bernard Sanders (ID-VT)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Sasse, Ben", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Ben Sasse (R-NE)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Schatz, Brian", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Brian Schatz (D-HI)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Schumer, Charles", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Charles Schumer (D-NY)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Scott, Tim", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Tim Scott (R-SC)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Scott, Rick", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Rick Scott (R-FL)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Shaheen, Jeanne", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Jeanne Shaheen (D-NH)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Shelby, Richard", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Richard Shelby (R-AL)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Sinema, Kyrsten", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Kyrsten Sinema (D-AZ)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Smith, Tina", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Tina Smith (D-MN)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Stabenow, Debbie", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Debbie Stabenow (D-MI)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Sullivan, Dan", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Dan Sullivan (R-AK)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Tester, Jon", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Jon Tester (D-MT)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Thune, John", Range:=Selection.Range)
+	oAutoText.Value = "Sen. John Thune (R-SD)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Tillis, Thom", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Thom Tillis (R-NC)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Toomey, Patrick", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Patrick Toomey (R-PA)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Udall, Tom", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Tom Udall (D-NM)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Van Hollen, Chris", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Chris Van Hollen (D-MD)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Warner, Mark", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Mark Warner (D-VA)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Warren, Elizabeth", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Elizabeth Warren (D-MA)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Whitehouse, Sheldon", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Sheldon Whitehouse (D-RI)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Wicker, Roger", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Roger Wicker (R-MS)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Wyden, Ron", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Ron Wyden (D-OR)"
+Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Young, Todd", Range:=Selection.Range)
+	oAutoText.Value = "Sen. Todd Young (R-IN)"
+Set oAutoText = Nothing
+
+End Sub

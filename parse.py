@@ -1,31 +1,29 @@
 import json
 import os
 import sys
+
 from pprint import pprint
-from util import read_sysargv, parse_senator, parse_house_member
 
-congress, chamber = read_sysargv()
+from util import read_sysargv, parse_senator, parse_house_member, load_data_file
+from file_generator import File
 
-pathname = f'./data/{chamber}_{congress}.json'
+chamber, congress = read_sysargv()
+data = load_data_file(chamber, congress)
 
-if not os.path.isfile(pathname):
-    print(f'File: {pathname} does not exist')
-    sys.exit()
+filename = f'autotext_{chamber}_{congress}.bas'
+macro = File(filename)
 
-with open(f'./data/{chamber}_{congress}.json', encoding='utf-8') as json_file:  
-    data = json.loads(json_file.read())
+def process(chamber):
+    for _, member in enumerate(data.get(chamber, [])):
+        parse = parse_senator if chamber == 'senate' else parse_house_member
+        snippet, title = parse(member)
 
-members = data['results'][0]['members']
+        macro.add_autotext(snippet, title)
 
-titles = []
+process('house')
+process('senate')
 
-for index, member in enumerate(members):
+macro.close_file()
 
-    parse = parse_senator if chamber == 'senate' else parse_house_member
-    titles.append(parse(member))
-    snippet, title = parse(member)
-
-    code = "Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:='{}', Value:= '{}', Range:=Selection.Range)".format(snippet, title)
-
-print()
+print("File generation complete: saved file as {}".format(filename))
     
