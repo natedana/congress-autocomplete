@@ -5,13 +5,13 @@ import sys
 from pprint import pprint
 
 from util import read_sysargv, parse_senator, parse_house_member, load_data_file
-from file_generator import File
+from file_generator import BasFile
 
-chamber, congress = read_sysargv()
+chamber, congress, force = read_sysargv()
 data = load_data_file(chamber, congress)
 
 filename = f'autotext_{chamber}_{congress}.bas'
-macro = File(filename)
+macro = BasFile(filename, force)
 
 def process(chamber):
     for _, member in enumerate(data.get(chamber, [])):

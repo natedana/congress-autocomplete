@@ -9,24 +9,30 @@ def to_num(val):
         return val.lower()
 
 def read_sysargv():
+    args = list(sys.argv)
 
     default_chamber = 'senate'
     default_congress = 116
     congress = None
     chamber = None
+    force = False
         
-    if len(sys.argv) > 1:
-        if len(sys.argv) == 2:
-            arg1 = to_num(sys.argv[1])
+    if len(args) > 1:
+        if '-f' in args:
+            force = True 
+            args.remove('-f')
+
+        if len(args) == 2:
+            arg1 = to_num(args[1])
             if isinstance(arg1, str):
                 chamber = arg1
                 congress = default_congress
             else:
                 chamber = default_chamber
                 congress = arg1
-        elif len(sys.argv) == 3:
-            arg1 = to_num(sys.argv[1])
-            arg2 = to_num(sys.argv[2])
+        elif len(args) == 3:
+            arg1 = to_num(args[1])
+            arg2 = to_num(args[2])
             if isinstance(arg1, str) and isinstance(arg2, int):
                 chamber = arg1
                 congress = arg2
@@ -44,7 +50,7 @@ def read_sysargv():
     if congress > 116 or congress < 100:
         raise Exception('Invalid congress')
 
-    return (chamber, congress)
+    return (chamber, congress, force)
 
 def load_data_file(chamber, congress):
     if chamber not in ['senate', 'house', 'both']:
