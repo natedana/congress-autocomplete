@@ -1,5 +1,14 @@
-
 Sub AutoTextCongress()
+
+Call Proc0
+Call Proc1
+Call Proc2
+Call Proc3
+Call Proc4
+
+End Sub
+
+Sub Proc0()
 
 Dim oAutoText As AutoTextEntry
 
@@ -203,6 +212,15 @@ Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(N
 	oAutoText.Value = "Rep. Peter DeFazio (D-OR-4)"
 Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="DeGette, Diana", Range:=Selection.Range)
 	oAutoText.Value = "Rep. Diana DeGette (D-CO-1)"
+
+Set oAutoText = Nothing
+
+End Sub
+
+Sub Proc1()
+
+Dim oAutoText As AutoTextEntry
+
 Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="DeLauro, Rosa", Range:=Selection.Range)
 	oAutoText.Value = "Rep. Rosa DeLauro (D-CT-3)"
 Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="DelBene, Suzan", Range:=Selection.Range)
@@ -405,6 +423,15 @@ Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(N
 	oAutoText.Value = "Rep. Jim Jordan (R-OH-4)"
 Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Joyce, John", Range:=Selection.Range)
 	oAutoText.Value = "Rep. John Joyce (R-PA-13)"
+
+Set oAutoText = Nothing
+
+End Sub
+
+Sub Proc2()
+
+Dim oAutoText As AutoTextEntry
+
 Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Joyce, Dave", Range:=Selection.Range)
 	oAutoText.Value = "Rep. Dave Joyce (R-OH-14)"
 Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Kaptur, Marcy", Range:=Selection.Range)
@@ -607,6 +634,15 @@ Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(N
 	oAutoText.Value = "Rep. Gary Palmer (R-AL-6)"
 Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Panetta, Jimmy", Range:=Selection.Range)
 	oAutoText.Value = "Rep. Jimmy Panetta (D-CA-20)"
+
+Set oAutoText = Nothing
+
+End Sub
+
+Sub Proc3()
+
+Dim oAutoText As AutoTextEntry
+
 Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Pappas, Chris", Range:=Selection.Range)
 	oAutoText.Value = "Rep. Chris Pappas (D-NH-1)"
 Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Pascrell, Bill", Range:=Selection.Range)
@@ -809,6 +845,15 @@ Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(N
 	oAutoText.Value = "Rep. Paul Tonko (D-NY-20)"
 Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Torres, Norma", Range:=Selection.Range)
 	oAutoText.Value = "Rep. Norma Torres (D-CA-35)"
+
+Set oAutoText = Nothing
+
+End Sub
+
+Sub Proc4()
+
+Dim oAutoText As AutoTextEntry
+
 Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Torres Small, Xochitl", Range:=Selection.Range)
 	oAutoText.Value = "Rep. Xochitl Torres Small (D-NM-2)"
 Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Trahan, Lori", Range:=Selection.Range)
@@ -1011,6 +1056,15 @@ Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(N
 	oAutoText.Value = "Sen. Robert Menendez (D-NJ)"
 Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Merkley, Jeff", Range:=Selection.Range)
 	oAutoText.Value = "Sen. Jeff Merkley (D-OR)"
+
+Set oAutoText = Nothing
+
+End Sub
+
+Sub Proc5()
+
+Dim oAutoText As AutoTextEntry
+
 Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Moran, Jerry", Range:=Selection.Range)
 	oAutoText.Value = "Sen. Jerry Moran (R-KS)"
 Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Murkowski, Lisa", Range:=Selection.Range)
@@ -1089,6 +1143,8 @@ Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(N
 	oAutoText.Value = "Sen. Ron Wyden (D-OR)"
 Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Young, Todd", Range:=Selection.Range)
 	oAutoText.Value = "Sen. Todd Young (R-IN)"
+
 Set oAutoText = Nothing
 
 End Sub
+

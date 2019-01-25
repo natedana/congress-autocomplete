@@ -1,5 +1,10 @@
-
 Sub AutoTextCongress()
+
+Call Proc0
+
+End Sub
+
+Sub Proc0()
 
 Dim oAutoText As AutoTextEntry
 
@@ -203,6 +208,8 @@ Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(N
 	oAutoText.Value = "Sen. Ron Wyden (D-OR)"
 Set oAutoText = Templates(ActiveDocument.AttachedTemplate).AutoTextEntries.Add(Name:="Young, Todd", Range:=Selection.Range)
 	oAutoText.Value = "Sen. Todd Young (R-IN)"
+
 Set oAutoText = Nothing
 
 End Sub
+

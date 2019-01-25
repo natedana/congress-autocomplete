@@ -52,7 +52,7 @@ class BasFile:
         self.end_proc()
         self.file.write("Sub AutoTextCongress()\n\n")
 
-        for i in range(0, self.proc_count):
+        for i in range(0, self.proc_count+1):
             self.file.write(f'Call Proc{i}\n')
         self.file.write("\n"+self.fileString)
 

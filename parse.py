@@ -20,8 +20,13 @@ def process(chamber):
 
         macro.add_autotext(snippet, title)
 
-process('house')
-process('senate')
+if chamber == 'both':
+	process('house')
+	process('senate')
+elif chamber == 'house':
+	process('house')
+elif chamber == 'senate':
+	process('senate')
 
 macro.close_file()
 
